@@ -1,60 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css/reset.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="icon"  href="img/rOI.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css/reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="img/rOI.png" />
     <title>RobNinja.Ex</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="continar">
-        <header>
-            <img id="logo" src="img/O.png" alt="Robbit">
-            <span><a id="brand" href="index.html">RobNinja.Ex</a></span>
-        </header>
-        <main>
-            <div class="con1">
-                <div class="dis">
-                    <span class="s1">Exchange</span><br><br>
-                    <span class="s2">All exchange orders are executed instantly in the blink of an eye. Don't believe it? Try yourself!</span>
-                </div>
-            </div>
-            <div class="con2">
-                <div class="clun">
-                    <div class="convert">CONVERT FROM</div>
+      <header>
+        <img id="logo" src="img/O.png" alt="Robbit" />
+        <span><a id="brand" href="index.html">RobNinja.Ex</a></span>
+      </header>
+      <main>
+        <div class="con1">
+          <div class="dis">
+            <span class="s1">Exchange</span><br /><br />
+            <span class="s2"
+              >All exchange orders are executed instantly in the blink of an
+              eye. Don't believe it? Try yourself!</span
+            >
+          </div>
+        </div>
+        <div class="con2">
+          <div class="clun">
+            <div class="convert">CONVERT FROM</div>
 
-                    <div class="chen from">
-                        <div class="crypto fr" id="crypto-element"><img src="img/bnb.png" alt="bnb"><span>BNB</span><p>BSC</p><img class="icdr"  src="img/ce450e19-78b0-4b65-86df-3d0d1c4a4cb3.svg"></div>
-                        <input type="number">
-                    </div>
-                </div>
-              
-
-                <span id="simbolconvert"><img src="img/convert-icon.png" alt="convert"></span>
-
-                <div class="clun">
-                    <div class="convert t">CONVERT TO</div>
-                
-                    <div class="chen tocon">
-                        <div class="crypto to" id="crypto-element1"><img src="img/btc.png" alt="btc"><span>BTC</span><img class="icdr1" src="img/ce450e19-78b0-4b65-86df-3d0d1c4a4cb3.svg"></div>
-                        <input type="number">
-                    </div>
-                </div>
-                <div id="connectwallet">Connect</div>
-                <a id="link-history" href="">YOUR HISTORY</a>
-                <span id="status-message" style="display: none;color: red;font-size: small;">You are not connected!</span>
+            <div class="chen from">
+              <div class="crypto fr" id="crypto-element">
+                <img src="img/bnb.png" alt="bnb" /><span>BNB</span>
+                <p>BSC</p>
+                <img
+                  class="icdr"
+                  src="img/ce450e19-78b0-4b65-86df-3d0d1c4a4cb3.svg"
+                />
+              </div>
+              <input type="number" />
             </div>
-        </main>
-        <footer>
-            <span><span>Robninja</span> community</span>
-            <div>
-                <img src="img/ins.svg" alt="instagram"><img src="img/lin.svg" alt="linkdin"><img src="img/tw.svg" alt="twitter"><img src="img/you.svg" alt="youtube">
+          </div>
+
+          <span id="simbolconvert"
+            ><img src="img/convert-icon.png" alt="convert"
+          /></span>
+
+          <div class="clun">
+            <div class="convert t">CONVERT TO</div>
+
+            <div class="chen tocon">
+              <div class="crypto to" id="crypto-element1">
+                <img src="img/btc.png" alt="btc" /><span>BTC</span
+                ><img
+                  class="icdr1"
+                  src="img/ce450e19-78b0-4b65-86df-3d0d1c4a4cb3.svg"
+                />
+              </div>
+              <input type="number" />
             </div>
-        </footer>
+          </div>
+          <div id="connectwallet">Connect</div>
+          <a id="link-history" href="">YOUR HISTORY</a>
+          <span
+            id="status-message"
+            style="display: none; color: red; font-size: small"
+            >You are not connected!</span
+          >
+        </div>
+      </main>
+      <footer>
+        <span><span>Robninja</span> community</span>
+        <div>
+          <a href="https://instagram.com/bokchainology"><img src="img/ins.svg" alt="instagram" /></a>
+          <a href="https://linkedin.com/company/blokchainology"><img src="img/lin.svg" alt="linkdin" /></a>
+          <a href="https://twitter.com/blokchainology"><img src="img/tw.svg" alt="twitter" /></a>
+          <a href="https://youtube.com/@blokchainology"><img src="img/you.svg" alt="youtube" /></a>
+        </div>
+      </footer>
     </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/web3/1.10.0/web3.min.js"
+      integrity="sha512-EXk1TBrT1TC+ajcr8c+McVhGFv4xAI+8m+V7T4PwT3MdYAv47jkirleTTZh8IFtRv90ZtKPOk/4JJTGUaQ9d6Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="wallet.js"></script>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
